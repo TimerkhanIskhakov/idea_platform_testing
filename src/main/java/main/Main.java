@@ -3,11 +3,9 @@ package main;
 import modules.jsonParser.tiketJsonParser.TicketHolder;
 import modules.jsonParser.tiketJsonParser.TicketJsonParserModule;
 import modules.statistic.FlightStatisticModule;
-import org.apache.commons.io.IOUtils;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
-import java.nio.charset.StandardCharsets;
 
 public class Main {
     public static void main(String[] args) {
